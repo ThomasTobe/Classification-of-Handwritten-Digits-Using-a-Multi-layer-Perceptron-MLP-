@@ -1,0 +1,2 @@
+# Classification-of-Handwritten-Digits-Using-a-Multi-layer-Perceptron-MLP-
+A machine learning project using a Multi-Layer Perceptron (MLP) neural network to classify handwritten digits from the MNIST dataset. The model is trained using scikit-learn, visualized with matplotlib, and evaluated on both training and test datasets. This project demonstrates practical implementation of classification tasks using neural networks.

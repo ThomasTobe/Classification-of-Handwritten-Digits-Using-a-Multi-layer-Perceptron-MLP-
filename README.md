@@ -12,7 +12,13 @@ For this project, I used a combination of tools and libraries that made it easie
 * Python: The programming language used for the entire project.
 * Scikit-learn: A machine learning library in Python, which I used to create and train the model.
 * Matplotlib: A plotting library to visualize the images and predictions.
-* MNIST dataset: A dataset containing 70,000 images of handwritten digits (60,000 for training and 10,000 for testing).
+* MNIST dataset: A dataset containing 70,000 images of handwritten digits (60,000 for training and 10,000 for testing). The MNIST dataset is one of the most famous datasets in machine learning and computer vision. It's widely used by beginners and researchers alike because it’s simple, versatile, and perfect for learning about image classification.
+    * What is the MNIST Dataset?
+
+    MNIST stands for Modified National Institute of Standards and Technology.
+    It’s a collection of 70,000 grayscale images of handwritten digits (numbers 0 through 9).
+    Each image is a 28x28 pixel grid, making it small and easy to process.
+    Every image has a label (the actual digit it represents, e.g., "3", "7", etc.).
 
 ## 🧠 How the Model Was Trained
 1. Data Loading: The first step was to load the MNIST dataset, which contains the images of handwritten digits along with the correct labels (the number each image represents). I used scikit-learn to fetch the dataset.

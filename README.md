@@ -15,7 +15,7 @@ For this project, I used a combination of tools and libraries that made it easie
 * MNIST dataset: A dataset containing 70,000 images of handwritten digits (60,000 for training and 10,000 for testing).
    * Dataset source: https://www.openml.org/d/554
 
-     X, y = fetch_openml("mnist_784", version=1, return_X_y=True)
+         X, y = fetch_openml("mnist_784", version=1, return_X_y=True, parser="auto")
 
  The MNIST dataset is one of the most famous datasets in machine learning and computer vision. It's widely used by beginners and researchers alike because it’s simple, versatile, and perfect for learning about image classification.
     * What is the MNIST Dataset?
